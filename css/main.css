@@ -1,0 +1,94 @@
+/* Color Swatch ----------------------------------
+	Gold			#FFD700
+	Dark Red		#8B0000
+	Dark Grey		#A9A9A9
+	Medium Blue		#0000CD
+------------------------------------------------*/
+
+body{
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+	font-family: bank gothic;
+	background; grey;
+	/*-------background-image: url(../images/bauer_background.jpg);
+	-------------*/
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+}
+
+h1{
+	background: grey; width: 455px;
+}
+
+nav{
+	width: 500px;
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+div{
+	background-image: url(../images/CTA_background.png);
+	/*-------border-width: 3px;
+	border-style: solid;
+	border-color: #666666;-------*/
+}
+
+section{
+	-moz-column-count: 3;
+	-moz-column-gap: 35px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 35px;
+	-ms-column-count: 3;
+	-ms-column-gap: 35px;
+}
+
+h1, h2, p, ol li, footer{
+	color: #000000
+}
+
+.pic1{
+	float: left;
+	list-style-type: none; 
+}
+
+.pic2{
+	float: left;
+	margin: 0 5px;
+	list-style-type: none;
+}
+
+.pic3{
+	float: left;
+	list-style-type: none;
+}
+
+.pic4{
+	float: left;
+	margin: 0 5px;
+	list-style-type: none;
+}
+
+h1{
+	text-shadow: 3px 3px 2px #404040;
+}
+
+
+a:link{
+	color: #FFD700;
+}
+
+a:visited{
+	color: #A9A9A9;
+}
+
+a:hover{
+	color: #8B0000;
+}
+
+a:active{
+	color: #0000CD;
+}
