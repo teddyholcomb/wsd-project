@@ -5,6 +5,15 @@
 	Medium Blue		#0000CD
 ------------------------------------------------*/
 
+h1{
+	margin: 0;
+}
+
+h2, h3{
+	margin: 0;
+	padding: 15px 10px 0;
+}
+
 body{
 	width: 900px;
 	margin: 0 auto;
@@ -22,6 +31,7 @@ h1{
 	height: 40px; 
 	line-height: 40px;
 	text-shadow: 3px 3px 2px #404040;
+	float: left;
 }
 
 /*------------- Nav Bar------------------*/
@@ -34,7 +44,7 @@ h1{
 }--------*/
 
 .nav_bar{
-	width: 444px;
+	width: 445px;
 	margin: 0 auto;
 	background: #666666;
 	list-style-type: none;
@@ -73,8 +83,8 @@ h1{
 
 .middle_info{
 	width: 900px;
-	height: 965px;
-	background-image: url(../images/grad_background.png);
+	height: 825px;
+	background-image: url(../images/grad_background.png); opacity: .75;
 	background-repeat: repeat-x;
 }
 
@@ -88,7 +98,7 @@ section{
 	padding: 10px;
 }
 
-h1, h2, p, ol li, footer{
+h1, h2, p, ol li{
 	color: #000000
 }
 
@@ -129,9 +139,16 @@ h1, h2, p, ol li, footer{
 /*---------------- Footer Info--------------*/
 
 footer{
-	background: white;
+	background: #505050; opacity: .5;
+	height: 160px;
+	margin: 0;
+	padding: 15px 10px 0;
 }
 
 .foot_bullet{
 	list-style-type: circle;
+	color: #fff;
+}
+
+.foot_pad{
 }
