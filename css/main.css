@@ -81,10 +81,15 @@ h1{
 	background-image: url(../images/american_flag_faded_wood.png);
 }
 
+.jack{
+	margin: 0;
+	padding: 15px 40px 0;
+}
+
 .middle_info{
 	width: 900px;
 	height: 825px;
-	background-image: url(../images/grad_background.png); opacity: .75;
+	background-image: url(../images/grad_background.png); opacity: .85;
 	background-repeat: repeat-x;
 }
 
@@ -120,19 +125,19 @@ h1, h2, p, ol li{
 
 /*---------- Styling Link Info---------*/
 
-.24info:link{
+a:link{
 	color: #FFD700;
 }
 
-.24info:visited{
+a:visited{
 	color: #A9A9A9;
 }
 
-.24info:hover{
+a:hover{
 	color: #8B0000;
 }
 
-.24info:active{
+a:active{
 	color: #0000CD;
 }
 
@@ -148,7 +153,26 @@ footer{
 .foot_bullet{
 	list-style-type: circle;
 	color: #fff;
+	margin: 10px;
 }
 
 .foot_pad{
 }
+
+
+/*--------------
+.24info:link{
+	color: #FFD700;
+}
+
+.24info:visited{
+	color: #A9A9A9;
+}
+
+.24info:hover{
+	color: #8B0000;
+}
+
+.24info:active{
+	color: #0000CD;
+}---------------------*/
