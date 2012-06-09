@@ -65,6 +65,8 @@ h1{
 }
 
 /*--------------------- Middle Section-----------*/
+
+
 .cta{
 	background-image: url(../images/american_flag_faded_wood.png);
 }
@@ -72,9 +74,9 @@ h1{
 .middle_info{
 	width: 900px;
 	height: 965px;
-	-webkit-background-image: url(../images/cta_background.png);
+	-webkit-background-image: url(../images/CTA_background.png);
 	-webkit-background-repeat: repeat-x;
-	-moz-background-image: url(../images/cta_background.png);
+	-moz-background-image: url(../images/CTA_background.png);
 	-moz-background-repeat: repeat-x;
 }
 
