@@ -126,3 +126,13 @@ h1, h2, p, ol li, footer{
 .24info:active{
 	color: #0000CD;
 }
+
+/*---------------- Footer Info--------------*/
+
+footer{
+	background: white;
+}
+
+.foot_bullet{
+	list-style-type: circle;
+}
