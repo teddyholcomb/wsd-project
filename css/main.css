@@ -74,10 +74,8 @@ h1{
 .middle_info{
 	width: 900px;
 	height: 965px;
-	-webkit-background-image: url(../images/grad_background.png);
-	-webkit-background-repeat: repeat-x;
-	-moz-background-image: url(../images/grad_background.png);
-	-moz-background-repeat: repeat-x;
+	background-image: url(../images/grad_background.png);
+	background-repeat: repeat-x;
 }
 
 section{
