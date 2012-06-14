@@ -22,7 +22,7 @@ body{
 	width: 100%; /*900px;*/
 	margin: 0%; /*0 auto;*/
 	overflow: hidden;
-	border: 2px dashed #fff;
+	/*border: 2px dashed #fff;*/
 }
 
 	h1{
@@ -104,11 +104,14 @@ body{
 
 .cta{
 	background-image: url(../images/american_flag_faded_wood.png);
+	border: 2px dashed #fff;
+	max-width: 100%;
 }
 
 .jack{
 	margin: 0%; /*0;*/
 	padding: 1.666667% 4.444444% 0%; /*15px 40px 0;*/
+	width: 47.222222%; /*425px*/
 }
 
 .middle_info{
@@ -200,3 +203,42 @@ footer{
 .24info:active{
 	color: #0000CD;
 }---------------------*/
+
+
+/*------------------- Media Queries ------------------*/
+
+	/*Tablet Portrait size to standard 900 (devices and browsers)*/
+	@media screen and (min-width: 768px) and (max-width: 899px){
+	#wrapper{background-color: #509cff;}
+	section{-moz-column-count: 1;
+		-moz-column-gap: 35px;
+		-webkit-column-count: 1;
+		-webkit-column-gap: 35px;
+		-ms-column-count: 1;
+		-ms-column-gap: 35px;
+		padding: 1.111111%; /*10px;*/}
+}
+
+	/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
+	@media only screen and (min-width: 480px) and (max-width: 767px)*/{
+	#wrapper{background-color: #8B0000;}
+	section{-moz-column-count: 1;
+		-moz-column-gap: 35px;
+		-webkit-column-count: 1;
+		-webkit-column-gap: 35px;
+		-ms-column-count: 1;
+		-ms-column-gap: 35px;
+		padding: 1.111111%; /*10px;*/}
+}
+
+	/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
+	@media only screen and (max-width: 479px){
+	#wrapper{background-color: #d593ff;}
+	section{-moz-column-count: 1;
+		-moz-column-gap: 35px;
+		-webkit-column-count: 1;
+		-webkit-column-gap: 35px;
+		-ms-column-count: 1;
+		-ms-column-gap: 35px;
+		padding: 1.111111%; /*10px;*/}
+}
