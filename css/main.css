@@ -7,21 +7,22 @@
 
 
 body{
-	width: 100%; /*900px;*/
+	max-width: 900px;
 	margin: 0 auto;
 	padding: 0;
 	font: 100%;
 	line-height: 1.5;
 	font-family: "bank gothic", avant garde, arial;
-	background: grey;
 	background-image: url(../images/bauer_background.jpg);
 	background-attachment: fixed;
 	background-repeat: repeat-x;
 }
 
 #wrapper{
-	width: 900px;
+	width: 100%; /*900px;*/
 	margin: 0 auto;
+	overflow: hidden;
+	border: 2px dashed #fff;
 }
 
 	h1{
@@ -111,7 +112,7 @@ body{
 }
 
 .middle_info{
-	width: 900px;
+	width: 100%; /*900px;*/
 	height: 1000px;/*825px;*/
 	background-image: url(../images/grad_background.png); opacity: .85;
 	background-repeat: repeat-x;
@@ -133,7 +134,7 @@ h1, h2, p, ol li{
 
 .pics{
 	list-style-type: none;
-	width: 900px auto;
+	width: 100%; /*900px auto;*/
 	margin: 20px auto;
 	overflow: hidden;
 	padding: 10px 2.5px;
@@ -142,7 +143,7 @@ h1, h2, p, ol li{
 .jack_images{
 	float: left;
 	margin-left: 11px;
-	width: 210px;
+	width: 23.333333%; /*210px;*/
 	height: 165px;
 	box-shadow: 4px 3px 2px #404040;
 }
