@@ -218,9 +218,7 @@ footer{
 	/*Tablet Portrait size to standard 900 (devices and browsers)*/
 	@media screen and (min-width: 768px) and (max-width: 899px){
 	#wrapper{background-color: #509cff;}
-	section{-moz-column-count: 1;
-		-moz-column-gap: 35px;
-		-webkit-column-count: 1;
+	section{-webkit-column-count: 1;
 		-webkit-column-gap: 35px;
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
@@ -230,11 +228,9 @@ footer{
 }
 
 	/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
-	@media only screen and (min-width: 480px) and (max-width: 767px)*/{
+	@media only screen and (min-width: 480px) and (max-width: 767px){
 	#wrapper{background-color: #8B0000;}
-	section{-moz-column-count: 1;
-		-moz-column-gap: 35px;
-		-webkit-column-count: 1;
+	section{-webkit-column-count: 1;
 		-webkit-column-gap: 35px;
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
@@ -246,9 +242,7 @@ footer{
 	/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
 	@media only screen and (max-width: 479px){
 	#wrapper{background-color: #d593ff;}
-	section{-moz-column-count: 1;
-		-moz-column-gap: 35px;
-		-webkit-column-count: 1;
+	section{-webkit-column-count: 1;
 		-webkit-column-gap: 35px;
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
