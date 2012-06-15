@@ -40,7 +40,7 @@ body{
 		h2{
 			font-size: 1.5em; /*24px*/
 			margin: 0%; /*0;*/
-			padding: 15px 10px 0;
+			padding: 1.6666667% 1.1111111% 0%; /*15px 10px 0;*/
 		}
 	
 			nav{
@@ -58,6 +58,11 @@ body{
 						footer{
 							font-size: 0.75em; /*12px*/
 						}
+							img {
+								max-width: 100%;
+								height: auto;
+								width: auto\9; /* ie8 */
+							}
 
 /*------------- Nav Bar------------------*/
 /*------nav{
@@ -104,14 +109,17 @@ body{
 
 .cta{
 	background-image: url(../images/american_flag_faded_wood.png);
-	border: 2px dashed #fff;
+	/*border: 2px dashed #fff;*/
 	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
 }
 
 .jack{
 	margin: 0%; /*0;*/
 	padding: 1.666667% 4.444444% 0%; /*15px 40px 0;*/
 	width: 47.222222%; /*425px*/
+	max-width: 100%;
 }
 
 .middle_info{
@@ -128,7 +136,7 @@ section{
 	-webkit-column-gap: 35px;
 	-ms-column-count: 3;
 	-ms-column-gap: 35px;
-	padding: 1.111111%; /*10px;*/
+	padding: 1.1111111%; /*10px;*/
 }
 
 h1, h2, p, ol li{
@@ -173,14 +181,14 @@ a:active{
 footer{
 	background: #505050; opacity: .5;
 	height: 160px;
-	margin: 0;
-	padding: 15px 10px 0;
+	margin: 0%; /*0;*/
+	padding: 1.6666667% 1.1111111% 0%; /*15px 10px 0;*/
 }
 
 .foot_bullet{
 	list-style-type: circle;
 	color: #fff;
-	margin: 10px;
+	margin: 1.1111111%; /*10px;*/
 }
 
 .foot_pad{
@@ -217,6 +225,8 @@ footer{
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
 		padding: 1.111111%; /*10px;*/}
+		.jack_images{float: none;}
+		.nav_bar{float: none;}
 }
 
 	/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
@@ -229,6 +239,8 @@ footer{
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
 		padding: 1.111111%; /*10px;*/}
+		.jack_images{float: none;}
+		.nav_bar{float: none;}
 }
 
 	/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
@@ -241,4 +253,6 @@ footer{
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
 		padding: 1.111111%; /*10px;*/}
+		.jack_images{float: none;}
+		.nav_bar{float: none;}
 }
