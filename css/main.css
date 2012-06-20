@@ -16,6 +16,8 @@ body{
 	background-image: url(../images/bauer_background.jpg);
 	background-attachment: fixed;
 	background-repeat: repeat-x;
+	/*background-image: -moz-radial-gradient(center top, ellipse farthest-corner, 
+	#FFFFFF 0%, #002447 100%);*/
 }
 
 #wrapper{
@@ -40,7 +42,7 @@ body{
 		h2{
 			font-size: 1.5em; /*24px*/
 			margin: 0%; /*0;*/
-			padding: 1.6666667% 1.1111111% 0%; /*15px 10px 0;*/
+			padding: 1.6666667% 1.111111% 0%; /*15px 10px 0;*/
 		}
 	
 			nav{
@@ -141,7 +143,7 @@ section{
 	-webkit-column-gap: 35px;
 	-ms-column-count: 3;
 	-ms-column-gap: 35px;
-	padding: 1.1111111%; /*10px;*/
+	padding: 1.111111%; /*10px;*/
 }
 
 h1, h2, p, ol li{
@@ -150,9 +152,9 @@ h1, h2, p, ol li{
 
 .pics{
 	list-style-type: none;
-	margin: 20px auto;
+	margin: 2.222222% auto; /*20px auto;*/
 	overflow: hidden;
-	padding: 10px 2.5px;
+	padding: 1.111111% 0.277778%; /*10px 2.5px;*/
 }
 
 .jack_images{
@@ -160,7 +162,7 @@ h1, h2, p, ol li{
 	margin-left: 1.222222%; /*11px;*/
 	width: 23.333333%; /*210px;*/
 	height: 165px;
-	box-shadow: 4px 3px 2px #404040;
+	box-shadow: 1.904762% 1.428571% 0.222222%; /*4px 3px 2px #404040;*/
 }
 
 /*---------- Styling Link Info---------*/
@@ -200,29 +202,12 @@ footer{
 }
 
 
-/*--------------
-.24info:link{
-	color: #FFD700;
-}
-
-.24info:visited{
-	color: #A9A9A9;
-}
-
-.24info:hover{
-	color: #8B0000;
-}
-
-.24info:active{
-	color: #0000CD;
-}---------------------*/
-
 
 /*------------------- Media Queries ------------------*/
 
 	/*Tablet Portrait size to standard 900 (devices and browsers)*/
 	@media screen and (min-width: 768px) and (max-width: 899px){
-	#wrapper{background-color: #A9A9A9;}
+	#wrapper{background-color: #00CC00;}
 	section{-webkit-column-count: 1;
 		-webkit-column-gap: 35px;
 		-moz-column-count: 1;
@@ -232,13 +217,14 @@ footer{
 		padding: 1.111111%; /*10px;*/}
 		/*.nav_bar{float: none; height: auto;}*/
 		.nav_text{float: none; width: auto;}
-		h1{height: auto;}
+		h1{height: 100%;}
 		footer{height: auto;}
+		.jack_images{float: none;}
 }
 
 	/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
 	@media only screen and (min-width: 480px) and (max-width: 767px){
-	#wrapper{background-color: #A9A9A9;}
+	#wrapper{background-color: #FF9900;}
 	section{-webkit-column-count: 1;
 		-webkit-column-gap: 35px;
 		-moz-column-count: 1;
@@ -246,16 +232,16 @@ footer{
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
 		padding: 1.111111%; /*10px;*/}
-		aside{display: none;}
 		/*.nav_bar{float: none; height: auto;}*/
 		.nav_text{float: none; width: auto;}
-		h1{height: auto;}
+		h1{height: 100%;}
 		footer{height: auto;}
+		.jack_images{float: none;}
 }
 
 	/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
 	@media only screen and (max-width: 479px){
-	#wrapper{background-color: #A9A9A9;}
+	#wrapper{background-color: #FF0066;}
 	section{-webkit-column-count: 1;
 		-webkit-column-gap: 35px;
 		-moz-column-count: 1;
@@ -263,9 +249,9 @@ footer{
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
 		padding: 1.111111%; /*10px;*/}
-		aside{display: none;}
 		/*.nav_bar{float: none; height: auto;}*/
 		.nav_text{float: none; width: auto;}
-		h1{height: auto;}
+		h1{height: 100%;}
 		footer{height: auto;}
+		.jack_images{float: none;}
 }
