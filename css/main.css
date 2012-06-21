@@ -115,8 +115,8 @@ body{
 	padding: 1.666667% 4.444444% 0%; /*15px 40px 0;*/
 	/*width: 47.222222%; /*425px*/
 	max-width: 100%;
-	/*height: auto;
-	width: auto\9; /* ie8 */
+	height: inherit;
+	width: inherit;
 }
 
 .middle_info{
@@ -211,11 +211,11 @@ footer{
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
 		padding: 1.111111%; /*10px;*/}
-		.nav_bar{float: none; width: auto;}
-		.nav_text{float: none; width: auto;}
+		.nav_bar{float: none; width: inherit;}
+		.nav_text{float: none; width: inherit;}
 		h1{height: 100%; width: auto; float: none;}
 		footer{height: auto;}
-		.jack_images{float: none;}
+		.jack_images{float: none; width: inherit;}
 		body{background-image: none;}
 }
 
@@ -229,11 +229,11 @@ footer{
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
 		padding: 1.111111%; /*10px;*/}
-		.nav_bar{float: none; width: auto;}
-		.nav_text{float: none; width: auto;}
+		.nav_bar{float: none; width: inherit;}
+		.nav_text{float: none; width: inherit;}
 		h1{height: 100%; width: auto; float: none;}
 		footer{height: auto;}
-		.jack_images{float: none;}
+		.jack_images{float: none; width: inherit;}
 		body{background-image: none;}
 }
 
@@ -247,10 +247,10 @@ footer{
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
 		padding: 1.111111%; /*10px;*/}
-		.nav_bar{float: none; width: auto;}
-		.nav_text{float: none; width: auto;}
+		.nav_bar{float: none; width: inherit;}
+		.nav_text{float: none; width: inherit;}
 		h1{height: 100%; width: auto; float: none; font-size: 1.875em; /*30px*/}
 		footer{height: auto;}
-		.jack_images{float: none;}
+		.jack_images{float: none; width: inherit;}
 		body{background-image: none;}
 }
