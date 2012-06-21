@@ -211,9 +211,9 @@ footer{
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
 		padding: 1.111111%; /*10px;*/}
-		/*.nav_bar{float: none; height: auto;}*/
+		.nav_bar{float: none; width: auto;}
 		.nav_text{float: none; width: auto;}
-		h1{height: 100%;}
+		h1{height: 100%; width: auto; float: none;}
 		footer{height: auto;}
 		.jack_images{float: none;}
 		body{background-image: none;}
@@ -229,9 +229,9 @@ footer{
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
 		padding: 1.111111%; /*10px;*/}
-		/*.nav_bar{float: none; height: auto;}*/
+		.nav_bar{float: none; width: auto;}
 		.nav_text{float: none; width: auto;}
-		h1{height: 100%;}
+		h1{height: 100%; width: auto; float: none;}
 		footer{height: auto;}
 		.jack_images{float: none;}
 		body{background-image: none;}
@@ -247,9 +247,9 @@ footer{
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
 		padding: 1.111111%; /*10px;*/}
-		/*.nav_bar{float: none; height: auto;}*/
+		.nav_bar{float: none; width: auto;}
 		.nav_text{float: none; width: auto;}
-		h1{height: 100%;}
+		h1{height: 100%; width: auto; float: none; font-size: 1.875em; /*30px*/}
 		footer{height: auto;}
 		.jack_images{float: none;}
 		body{background-image: none;}
