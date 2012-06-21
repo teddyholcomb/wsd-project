@@ -255,6 +255,7 @@ footer{
 	.jack_images{float: clear; width: inherit;}
 	body{background-image: none;}
 	.facts{appearance: none;}
+	.middle_info{height: auto;}
 }
 
 	/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
@@ -273,6 +274,7 @@ footer{
 	footer{height: inherit;}
 	.jack_images{float: clear; width: inherit;}
 	body{background-image: none;}
+	.middle_info{height: auto;}
 }
 
 	/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
@@ -291,4 +293,5 @@ footer{
 	footer{height: inherit;}
 	.jack_images{float: clear; width: inherit;}
 	body{background-image: none;}
+	.middle_info{height: auto;}
 }
