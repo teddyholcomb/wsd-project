@@ -108,8 +108,6 @@ body{
 .cta{
 	background-image: url(../images/american_flag_faded_wood.png);
 	max-width: 100%;
-	/*height: auto;
-	width: auto\9; /* ie8 */
 }
 
 .jack{
@@ -218,6 +216,7 @@ footer{
 		h1{height: 100%;}
 		footer{height: auto;}
 		.jack_images{float: none;}
+		body{background-image: none;}
 }
 
 	/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
@@ -235,6 +234,7 @@ footer{
 		h1{height: 100%;}
 		footer{height: auto;}
 		.jack_images{float: none;}
+		body{background-image: none;}
 }
 
 	/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
@@ -252,4 +252,5 @@ footer{
 		h1{height: 100%;}
 		footer{height: auto;}
 		.jack_images{float: none;}
+		body{background-image: none;}
 }
