@@ -121,7 +121,7 @@ body{
 
 .middle_info{
 	width: 100%; /*900px;*/
-	height: 1000px;/*825px;*/
+	height: 1000px;/*825px;
 	/*background-image: url(../images/grad_background.png); opacity: .85;
 	background-repeat: repeat-x;*/
 	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #A9A9A9 100%);
@@ -146,10 +146,13 @@ h1, h2, p, ol li{
 	color: #000000
 }
 
+aside{
+	overflow: hidden;
+}
+
 .pics{
 	list-style-type: none;
 	margin: 2.222222% auto; /*20px auto;*/
-	overflow: hidden;
 	padding: 1.111111% 0.277778%; /*10px 2.5px;*/
 }
 
@@ -158,7 +161,7 @@ h1, h2, p, ol li{
 	margin-left: 1.222222%; /*11px;*/
 	width: 23.333333%; /*210px;*/
 	height: 165px;
-	box-shadow: 1.904762% 1.428571% 0.222222%; /*4px 3px 2px #404040;*/
+	/*box-shadow: 4px 3px 2px #404040;*/
 }
 
 /*--------------------------------- Styling Link Info-------------------------------*/
@@ -188,13 +191,14 @@ footer{
 	padding: 1.6666667% 1.1111111% 0%; /*15px 10px 0;*/
 }
 
+/*.foot_pad{
+	float: left;
+}*/
+
 .foot_bullet{
 	list-style-type: circle;
 	color: #fff;
 	margin: 1.1111111%; /*10px;*/
-}
-
-.foot_pad{
 }
 
 
@@ -211,12 +215,12 @@ footer{
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
 		padding: 1.111111%; /*10px;*/}
-		.nav_bar{float: none; width: inherit;}
-		.nav_text{float: none; width: inherit;}
-		h1{height: 100%; width: auto; float: none;}
-		footer{height: auto;}
-		.jack_images{float: none; width: inherit;}
-		body{background-image: none;}
+	.nav_bar{float: none; width: inherit;}
+	.nav_text{float: none; width: inherit;}
+	h1{height: 100%; width: inherit; float: none;}
+	footer{height: inherit;}
+	.jack_images{float: none; width: inherit;}
+	body{background-image: none;}
 }
 
 	/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
@@ -229,12 +233,12 @@ footer{
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
 		padding: 1.111111%; /*10px;*/}
-		.nav_bar{float: none; width: inherit;}
-		.nav_text{float: none; width: inherit;}
-		h1{height: 100%; width: auto; float: none;}
-		footer{height: auto;}
-		.jack_images{float: none; width: inherit;}
-		body{background-image: none;}
+	.nav_bar{float: none; width: inherit;}
+	.nav_text{float: none; width: inherit;}
+	h1{height: 100%; width: inherit; float: none;}
+	footer{height: inherit;}
+	.jack_images{float: none; width: inherit;}
+	body{background-image: none;}
 }
 
 	/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
@@ -247,10 +251,10 @@ footer{
 		-ms-column-count: 1;
 		-ms-column-gap: 35px;
 		padding: 1.111111%; /*10px;*/}
-		.nav_bar{float: none; width: inherit;}
-		.nav_text{float: none; width: inherit;}
-		h1{height: 100%; width: auto; float: none; font-size: 1.875em; /*30px*/}
-		footer{height: auto;}
-		.jack_images{float: none; width: inherit;}
-		body{background-image: none;}
+	.nav_bar{float: none; width: inherit;}
+	.nav_text{float: none; width: inherit;}
+	h1{height: 100%; width: inherit; float: none; font-size: 1.875em; /*30px*/}
+	footer{height: inherit;}
+	.jack_images{float: none; width: inherit;}
+	body{background-image: none;}
 }
