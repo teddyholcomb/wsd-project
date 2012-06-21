@@ -113,9 +113,9 @@ body{
 .jack{
 	margin: 0%; /*0;*/
 	padding: 1.666667% 4.444444% 0%; /*15px 40px 0;*/
-	width: 47.222222%; /*425px*/
+	/*width: 47.222222%; /*425px*/
 	max-width: 100%;
-	height: auto;
+	/*height: auto;
 	width: auto\9; /* ie8 */
 }
 
