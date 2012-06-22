@@ -186,9 +186,15 @@ a:active{
 
 /*-------------------------------- Table Info ----------------------------------*/
 
+.favs{
+	border: 1px dashed #fff;
+}
+
+
 table{
 	border-collapse: collapse;
 	border: 1px solid #000;
+	margin: 0% 3%;
 }
 
 td{
