@@ -16,15 +16,12 @@ body{
 	background-image: url(../images/bauer_background.jpg);
 	background-attachment: fixed;
 	background-repeat: repeat-x;
-	/*background-image: -moz-radial-gradient(center top, ellipse farthest-corner, 
-	#FFFFFF 0%, #002447 100%);*/
 }
 
 #wrapper{
 	width: 100%; /*900px;*/
 	margin: 0%; /*0 auto;*/
 	overflow: hidden;
-	/*border: 2px dashed #fff;*/
 }
 
 	h1{
@@ -63,13 +60,7 @@ body{
 							
 
 /*---------------------------- Nav Bar--------------------------------*/
-/*------nav{
-	width: 500px;
-	margin: 0 auto;
-	list-style-type: none;
-	padding: 0;
-	overflow: hidden;
-}--------*/
+
 
 .nav_bar{
 	width: 49.444444%; /*445px*/
@@ -102,6 +93,7 @@ body{
 	background: #FFD700;
 }
 
+
 /*----------------------------- Middle Section-------------------------------*/
 
 
@@ -121,9 +113,6 @@ body{
 
 .middle_info{
 	width: 100%; /*900px;*/
-	/*height: 1500px;/*825px;*/
-	/*background-image: url(../images/grad_background.png); opacity: .85;
-	background-repeat: repeat-x;*/
 	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #A9A9A9 100%);
 	background-image: -webkit-gradient(linear, left top, left bottom, 
 	color-stop(0, #FFFFFF), color-stop(1, #A9A9A9));
@@ -159,14 +148,15 @@ aside{
 .jack_images{
 	float: left;
 	margin-left: 1.222222%; /*11px;*/
+	margin-bottom: 2%; /*1.222222%;*/
 	width: 23.333333%; /*210px;*/
 	height: 165px;
 	/*box-shadow: 4px 3px 2px #404040;*/
 }
 
 
-
 /*--------------------------------- Styling Link Info-------------------------------*/
+
 
 a:link{
 	color: #FFD700;
@@ -186,15 +176,11 @@ a:active{
 
 /*-------------------------------- Table Info ----------------------------------*/
 
-/*.favs{
-	border: 1px dashed #fff;
-}*/
-
 
 table{
 	border-collapse: collapse;
 	border: 1px solid #000;
-	margin: 1% 3%;
+	margin: 2% 2%;
 	width: 94%
 }
 
@@ -211,32 +197,24 @@ th{
 }
 
 
-
-
 /*------------------------------- Form Info ------------------------------------*/
 
+
 .sign_up{
-	/*margin: 0% 3%;*/
-	padding: 3%;
+	padding: 2%;
 }
 
 
-
-
-
 /*--------------------------------- Footer Info----------------------------------*/
+
 
 footer{
 	background: #505050; opacity: .5;
 	height: 160px;
 	margin: 0%; /*0;*/
-	padding: 1.6666667% 1.1111111% 0%; /*15px 10px 0;*/
+	padding: 1.6666667% 1.1111111% 2%;
 	clear: both;
 }
-
-/*.foot_pad{
-	float: left;
-}*/
 
 .foot_bullet{
 	list-style-type: circle;
@@ -245,12 +223,12 @@ footer{
 }
 
 
-
 /*---------------------------------- Media Queries --------------------------------*/
+
 
 	/*Tablet Portrait size to standard 900 (devices and browsers)*/
 	@media screen and (min-width: 768px) and (max-width: 899px){
-	#wrapper{background-color: #00CC00;}
+	#wrapper{background-color: #A9A9A9;}
 	section{-webkit-column-count: 1;
 		-webkit-column-gap: 35px;
 		-moz-column-count: 1;
@@ -261,7 +239,6 @@ footer{
 	.nav_bar{float: none; width: inherit;}
 	.nav_text{float: none; width: inherit;}
 	h1{height: 100%; width: inherit; float: none;}
-	footer{height: inherit;}
 	.jack_images{float: clear; width: inherit;}
 	body{background-image: none;}
 	.facts{appearance: none;}
@@ -270,7 +247,7 @@ footer{
 
 	/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
 	@media only screen and (min-width: 480px) and (max-width: 767px){
-	#wrapper{background-color: #FF9900;}
+	#wrapper{background-color: #A9A9A9;}
 	section{-webkit-column-count: 1;
 		-webkit-column-gap: 35px;
 		-moz-column-count: 1;
@@ -281,7 +258,6 @@ footer{
 	.nav_bar{float: none; width: inherit;}
 	.nav_text{float: none; width: inherit;}
 	h1{height: 100%; width: inherit; float: none;}
-	footer{height: inherit;}
 	.jack_images{float: clear; width: inherit;}
 	body{background-image: none;}
 	.middle_info{height: auto;}
@@ -289,7 +265,7 @@ footer{
 
 	/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
 	@media only screen and (max-width: 479px){
-	#wrapper{background-color: #FF0066;}
+	#wrapper{background-color: #A9A9A9;}
 	section{-webkit-column-count: 1;
 		-webkit-column-gap: 35px;
 		-moz-column-count: 1;
@@ -300,7 +276,6 @@ footer{
 	.nav_bar{float: none; width: inherit;}
 	.nav_text{float: none; width: inherit;}
 	h1{height: 100%; width: inherit; float: none; font-size: 1.875em; /*30px*/}
-	footer{height: inherit;}
 	.jack_images{float: clear; width: inherit;}
 	body{background-image: none;}
 	.middle_info{height: auto;}
